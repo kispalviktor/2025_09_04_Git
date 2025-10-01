@@ -29,7 +29,7 @@ nav a.active {
 
 form{
     max-width: 500px;
-    background: rgb(116, 30, 30);
+    background: rgb(0, 218, 152);
     padding: 15px;
     max-width: 500px;
     margin: auto;
@@ -37,11 +37,11 @@ form{
 
 label{
     display: block;
-    color: rgb(255, 255, 255)
+    color: rgb(0, 0, 0)
 }
 
 legend{
-    color: rgb(238, 198, 86)
+    color: rgb(0, 0, 0)
 }
 
 input{
@@ -49,7 +49,7 @@ input{
 }
 
 #uh{
-    color: rgb(238, 198, 86)
+    color: rgb(0, 0, 0)
 }
 
 fieldset{

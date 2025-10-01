@@ -23,56 +23,21 @@
         <label id="uh"> Név: 
             <input type="text" name="name" placeholder="Pl. Kalap Jakab" maxlength="20" required>
         </label> 
-        <label id="uh"> Telefonszám: 
-            <input type="tel" name="phone" placeholder="+363010050" maxlength="10" required>
-        </label> 
         <label id="uh"> E-mail: 
             <input type="email" name="email" placeholder="Pl. kalap@gmail.com" maxlength="25" required>
         </label>
+        <label id="uh"> E-mail: 
+            <input type="password" name="password" placeholder="Pl. abc123!?" maxlength="8" required>
+        </label>
         <br>
 
-        <fieldset>
-            <legend>Pizza mérete</legend>
             <label> 
-                <input type="radio" name="size" required value="csaladi"> Családi
+                <input type="checkbox" name="box" value="newsletter"> Szeretnék feliratkozni a weboldal hírlevelére.
+                <br>
+                <input type="checkbox" name="box" value="tos" required> Elfogafom azáltalános szerződési feltételeket.
             </label>
             <br>
-            <label> 
-                <input type="radio" name="size" required value="kozepes"> Közepes
-            </label>
-            <br>
-            <label> 
-                <input type="radio" name="size" required value="kicsi"> Kicsi
-            </label>
-        </fieldset>
-
-
-        <fieldset>
-            <legend>Feltétek</legend>
-            <label> 
-                <input type="checkbox" name="feltet" value="mozzarella sajt"> Mozzarella sajt
-            </label>
-            <br>
-            <label> 
-                <input type="checkbox" name="feltet" value="fetasajt"> Fetasajt
-            </label>
-            <br>
-            <label> 
-                <input type="checkbox" name="feltet" value="kukorica"> Kukorica
-            </label>
-            <br>
-            <label> 
-                <input type="checkbox" name="feltet" value="bacon"> Bacon
-            </label>
-        </fieldset>
-
-
-        <fieldset>
-            <legend>Megjegyzés</legend>
-            <textarea name="megjegyzes" id="megjegyzes_mezo" maxlength="200" placeholder="ide írhatod a megjegyzésed" cols="50" rows="5"></textarea>
-        </fieldset>
 
         <button type="submit">Elküldés</button>
-        <button type="reset">Visszaállítás</button>
 </body>
 </html>
